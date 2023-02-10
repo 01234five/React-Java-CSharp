@@ -1,0 +1,44 @@
+.message-chat-container {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    align-items: baseline;
+    color:white;
+    padding:5px;
+    border-bottom: 1px solid #1c1c1c;
+
+}
+
+.message-chat-icon{
+  
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.message-chat-user-name{
+   overflow: hidden;
+    flex: 30%;
+ 
+}
+
+.message-chat-colon{
+    
+    flex: 2%;
+
+}
+
+.message-chat-text-container{
+
+    flex: 58%;
+
+}
+
+
+.message-chat-text{
+  word-break: break-word;
+
+}

@@ -1,0 +1,157 @@
+
+.screen-settings-container-messages {
+    background-color: #B91818;
+
+}
+
+.screen-settings-privacy-policy-disclaimer-container{
+    background-color: #B91818;
+}
+
+.screen-settings-container-element-1{
+
+    border-bottom: 1px solid #9400009e;
+    background-color: #B91818;
+
+}
+
+.screen-settings-container-element-1-row-3-container{
+
+ 
+    border-bottom: 1px solid #9f0000;
+}
+
+
+#screen-settings-container-element-1-row-3-button{
+
+    background-color: #ff0000;
+ 
+}
+
+
+.screen-settings-container-element-2{
+
+    border-top: 1px solid #ff0101;
+
+    border-bottom: 1px solid #7a0000;
+}
+
+
+.screen-settings-container-element-3{
+
+    border-bottom: 1px solid #760000;
+    border-top: 1px solid #760000;
+
+}
+
+
+.screen-settings-container-bottom
+ {
+
+    background-color: #A91721;
+}
+
+
+.screen-settings-container-bottom-form-button-lyncse{
+    background-color: #A91721;
+
+}
+
+
+.settings-scroller{
+    background-color: #930000;
+}
+
+.screen-settings-container-element-1-row-4{
+    border-bottom: 1px solid #7f000061;
+  }
+  
+
+
+
+
+.que-scroller{
+    background-color: #930000;
+}
+
+.screen-que-container-messages{
+    background-color: #B91818;
+}
+
+.screen-que-container-bottom{
+    background-color:unset;
+}
+
+
+
+  
+
+
+
+ .container-side-bar{
+ background-color: #A91721;
+ }
+
+
+
+
+.scroller{
+    background-color: #B91818;
+}
+
+.screen-que-container-bottom-form-button{
+    background-color: #A91721;
+}
+
+
+.display-file-upload-container-button-1{
+    border-top: 1px solid #9400009e;
+    border-bottom: 1px solid #9400009e;
+}
+
+.display-file-upload-container-info{
+    border-bottom: 1px solid #9400009e;
+}
+
+.display-file-upload-container-info{
+    border-bottom: 1px solid #9400009e;
+}
+
+.custom-file-upload{
+    background-color: #ff0000;
+}
+
+.screen-chat-container-bottom-form-button{
+    background-color: #A91721;
+}
+
+.screen-chat-container-messages{
+    background-color: unset;
+}
+
+
+
+.message-chat-container{
+border-bottom: 1px solid #9400009e;
+border-top: 1px solid #890000;
+}
+
+
+
+
+.lyncse-info-container-header{
+    height: 50px;
+    background-color: #333f90;
+}
+.lyncse-info-container-footer{
+        height: 20px;
+        background-color: #333f90;  
+}
+
+#linkedin-link {
+  color: #ffbebe
+}
+
+.lyncse-badge-container{
+    border-right: 1px solid #ff4b4b;
+}

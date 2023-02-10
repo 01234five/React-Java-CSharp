@@ -1,0 +1,320 @@
+
+
+
+
+.screen-settings-container-main {
+    height:100%;
+    width: 100%;
+}
+
+.screen-settings-container-header {
+    height: 10%;
+    width: 100%;
+}
+
+.screen-settings-header-text {
+    color: whitesmoke;
+}
+
+.settings-scroller {
+    background-color: #070707;    
+    height: 80%;
+    width:100%;
+    display: flex;
+
+    overflow-y:scroll;
+    overflow-x:hidden;
+    color: rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    transition: color .3s ease;    
+    }
+    .settings-scroller:hover{
+        color: rgba(163, 163, 163, 0.3);
+      }    
+
+.screen-settings-container-messages {
+    background-color: #070707;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.screen-settings-container-element-1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: baseline;
+    color: white;
+    border-bottom: 1px solid #9400009e
+
+}
+
+.screen-settings-container-element-1-row-2{
+
+    height: max-content; 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+
+#screen-settings-container-element-1-row-1-title{
+    font-size: 125%;
+    height: max-content;
+}
+
+
+.screen-settings-container-element-1-row-3-container{
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: baseline;
+    color: white;
+    border-bottom: 1px solid #9f0000;
+}
+.screen-settings-container-element-1-row-3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 5% 0;
+}
+
+#screen-settings-container-element-1-row-3-button{
+    height: 100%;
+    padding: 5% 0;
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+.screen-settings-container-element-1-row-4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+}
+#screen-settings-container-element-1-row-4-title{
+    border: 0;
+    background-color: #07070700;
+    color: white;
+}
+.screen-settings-container-2{
+    height:75%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.screen-settings-container-element-2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    color:white;
+    border-top: 1px solid #ff0101;
+    border-top: 1px solid #1c1c1c;
+
+}
+
+#screen-settings-container-element-2-row-1-title{
+    border: 0;
+    background-color: #07070700;
+    color: white;
+}
+
+.screen-settings-container-element-3{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    color:white;
+    border-bottom: 1px solid #760000;
+    border-top: 1px solid #760000;
+
+}
+
+#screen-settings-container-element-3-row-1-title{
+    border: 0;
+    background-color: #07070700;
+    color: white;
+}
+
+.screen-settings-container-element-4{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    color:white;
+    border-bottom: 1px solid #1c1c1c;
+
+}
+
+#screen-settings-container-element-4-row-1-title{
+    background-color: black;
+    color: white;
+}
+
+.screen-settings-container-bottom
+ {
+    height: 20%;
+    width:100%;   
+    border-top: 3px;
+    border-top-style: solid;
+    border-color: #dbdbdb05;
+    background-color: #920000;
+}
+
+
+.screen-settings-fa-icon-style
+{
+    font-size: 100% !important;
+}
+
+
+.screen-settings-container-bottom-form
+{   
+    Height: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    animation: 1s ease 0s animation-opacity-bottom-form; 
+    overflow: hidden;    
+    justify-content: center;
+
+}
+.screen-settings-container-bottom-form-button{
+    height: 40%;
+    width: 100%;
+    background-color: #0c0c0c;
+    border:0;
+    overflow: hidden;
+    font-size: 0px;
+    transition: font-size 0.1s ease 0s;     
+}
+.screen-settings-container-bottom-form-button-text{
+    color: rgba(255, 255, 255, 0.575);
+}
+.screen-settings-container-bottom-form-button-lyncse{
+    background-color: rgb(145 0 0);
+}
+#settings-user-name{
+    color:#DB8FFF;
+    overflow: hidden;
+    flex: auto 0;
+}
+.settings-input-palette-container{
+    padding-right: 30%;
+
+    flex: auto 2;
+}
+#settings-input-palette{
+
+    background-color: black;
+}
+
+#screen-settings-icon{
+    font-size: 0px;
+    transition: font-size 0.1s ease 0s; 
+}
+
+.change-screen-settings-bottom-form-elements ~ .screen-settings-container-bottom-form-input {
+    opacity: 1;
+    
+}
+.change-screen-settings-bottom-form-elements ~ .screen-settings-container-bottom-form-button {
+
+    opacity: 1;
+}
+
+.change-screen-settings-bottom-form-elements ~ .fa-paper-plane{
+    opacity:1;
+}
+
+
+@keyframes animation-opacity-bottom-form {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: #1b1b1b00 #1b1b1b00;
+  }
+
+  *:hover {
+    scrollbar-width: none;
+    scrollbar-color: #1b1b1b #1b1b1b;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #1b1b1b00;
+    border-radius: 10px;
+    border: 3px solid #1b1b1b00;
+  }
+  *::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 10px;
+  }
+
+
+
