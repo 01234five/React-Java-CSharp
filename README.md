@@ -34,4 +34,4 @@ Docker (nginx server is here)
 
 
 For viewing the website live go to http://47.202.156.160:3000/  
-OBS might or might not be up as this not allow the server to lock.
+OBS might or might not be up as this not allow the server to lock and i sometimes just turn it off and lock the computer as this is not for business purposes.
