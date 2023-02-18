@@ -1,5 +1,7 @@
 # React-Java-CSharp
 
+Interface created with react has 4 screens including the main one. Chat where you are able to send messages allowing communication with others visiting the site. The coomunication is done via signalr websockets. The website is using two signalr hubs. A chat hub for messages and a que hub for informing the user that a new video has been submitted to site and an update to the que needs to be done. Messages are saved to a mysql database on the server. This allow to fetch the last 20 messages as enforced by code. The last 20 messages are received when the website is visited via rest get request. Get/Post request are managed with springboot. The website uses a get request for reading messages and updating que list and post for uploading files. A nginx server is created in a docker container that streams in rtmp and hls format. OBS is used for video streaming. OBS websockets are used to receive notification on the server for when a video ended, allowing the ability to keep going through the que of videos.
+
 React-
 Screens:
 Main
@@ -15,4 +17,7 @@ Settings
 Layout 2
 ![5](https://user-images.githubusercontent.com/83076267/219885025-ad1c776d-a6bc-4bfa-b6b4-1d7b49ee2eb8.png)
 
-Interface created with react has 4 screens including the main one. Chat where you are able to send messages allowing communication with others visiting the site. The coomunication is done via signalr websockets. The website is using two signalr hubs. A chat hub for messages and a que hub for informing the user that a new video has been submitted to site and an update to the que needs to be done. Messages are saved to a mysql database on the server. This allow to fetch the last 20 messages as enforced by code. The last 20 messages are received when the website is visited via rest get request. Get/Post request are managed with springboot. The website uses a get request for reading messages and updating que list and post for uploading files. Viewing videos
+
+
+For viewing the website live go to http://47.202.156.160:3000/  
+OBS might or might not be up as this not allow the server to lock.
