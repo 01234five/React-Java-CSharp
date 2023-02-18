@@ -18,6 +18,10 @@ Layout 2
 ![5](https://user-images.githubusercontent.com/83076267/219885025-ad1c776d-a6bc-4bfa-b6b4-1d7b49ee2eb8.png)
 
 
+C#-Signalr
+
+![8](https://user-images.githubusercontent.com/83076267/219887754-b4070348-c520-4630-a262-7b9e12b60277.png)
+
 
 For viewing the website live go to http://47.202.156.160:3000/  
 OBS might or might not be up as this not allow the server to lock.
