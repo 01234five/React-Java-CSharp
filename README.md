@@ -17,10 +17,20 @@ Settings
 Layout 2
 ![5](https://user-images.githubusercontent.com/83076267/219885025-ad1c776d-a6bc-4bfa-b6b4-1d7b49ee2eb8.png)
 
+Java-Springboot
+
+![7](https://user-images.githubusercontent.com/83076267/219888156-593ac256-a400-46af-a6b7-652af8d240b7.png)
 
 C#-Signalr
 
 ![8](https://user-images.githubusercontent.com/83076267/219887754-b4070348-c520-4630-a262-7b9e12b60277.png)
+
+Mysql workbench (mysql server is used)
+
+![6](https://user-images.githubusercontent.com/83076267/219888377-3e2acfc8-4cc9-46e5-843a-75ce968053d6.png)
+
+Docker (nginx server is here)
+![9](https://user-images.githubusercontent.com/83076267/219888505-b6d78db1-f0d0-4318-84d3-4655d07a5522.png)
 
 
 For viewing the website live go to http://47.202.156.160:3000/  
